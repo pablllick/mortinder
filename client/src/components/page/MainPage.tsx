@@ -8,6 +8,7 @@ export default function MainPage(): JSX.Element {
   const [page, setPage] = React.useState(1);
   const [index, setIndex] = React.useState(0);
   const [person, setPerson] = useState<PersonType[]>([]);
+  
 
   const plusClickHandler = (): void => {
     if (index + 1 === person.length) {
