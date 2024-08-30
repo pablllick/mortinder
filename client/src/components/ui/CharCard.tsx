@@ -38,7 +38,7 @@ export default function CharCard({ char, plusClickHandler }: CharCardPropsType):
           margin: 20,
         }}
       >
-        <CardMedia sx={{ height: 500 }} image={char.image} title="your lover" />
+        <CardMedia sx={{ height: 500 }} image={char.image} title="your future lover" />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
             {char.name}
